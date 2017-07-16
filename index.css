@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.help-text {
+    color: grey;
+}
+
+.input {
+    background: #DCDCAA;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+body {
+    background: lightyellow;
+}
