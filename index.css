@@ -8,11 +8,26 @@
 }
 
 .input {
-    background: #DCDCAA;
-    padding: 10px;
+    background: #FF9900;
+    padding: 15px;
     border-radius: 7px;
 }
 
 body {
-    background: lightyellow;
+    background: #FFC164;
+}
+
+.center {
+    text-align: center;
+}
+
+.file-upload {
+    padding: 7px;
+}
+
+.action {
+    margin: 5px 20%;
+}
+table {
+    margin-top: 40px;
 }
