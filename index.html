@@ -7,6 +7,41 @@
         <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>
         <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script>
         <link rel="stylesheet" href="index.css">
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+            }
+
+            .help-text {
+                color: dimgrey;
+            }
+
+            .input {
+                background: #FF9900;
+                padding: 15px;
+                border-radius: 7px;
+            }
+
+            body {
+                background: #FFC164;
+            }
+
+            .center {
+                text-align: center;
+            }
+
+            .file-upload {
+                padding: 7px;
+            }
+
+            .action {
+                margin: 5px 20%;
+            }
+            table {
+                margin-top: 40px;
+            }
+        </style>
     </head>
     <body>
         <div class="container">
@@ -56,6 +91,15 @@
                 </table>
             </div>
         </div>
-        <script src="index.js"></script>
+        <script>
+            var refresh = document.querySelector('.refresh');
+            var download = document.querySelector('.download');
+            refresh.addEventListener('click', function () {
+                alert("refreshing");
+            });
+            download.addEventListener('click', function () {
+                alert("downloading");
+            });
+        </script>
     </body>
 </html>
